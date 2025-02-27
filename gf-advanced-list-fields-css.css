@@ -1,0 +1,75 @@
+/**
+ * Gravity Forms Advanced List Fields
+ * Frontend CSS
+ */
+
+/* List Field Styles */
+.ginput_container_advanced_list table.gfield_list_advanced {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.ginput_container_advanced_list table.gfield_list_advanced th,
+.ginput_container_advanced_list table.gfield_list_advanced td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.ginput_container_advanced_list table.gfield_list_advanced th {
+    background-color: #f8f8f8;
+    font-weight: 600;
+}
+
+/* Textarea field */
+.ginput_container_advanced_list textarea {
+    width: 100%;
+    min-height: 80px;
+    padding: 6px;
+}
+
+/* Select field */
+.ginput_container_advanced_list select {
+    width: 100%;
+    padding: 6px;
+}
+
+/* Multi-select field */
+.ginput_container_advanced_list select[multiple] {
+    min-height: 80px;
+}
+
+/* Radio button group */
+.ginput_container_advanced_list .gfield_list_radio_item {
+    margin-bottom: 5px;
+}
+
+.ginput_container_advanced_list .gfield_list_radio_item label {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* Checkbox field */
+.ginput_container_advanced_list input[type="checkbox"] {
+    margin: 0;
+}
+
+/* Entry value display table */
+table.gf-advanced-list-entry-value {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+table.gf-advanced-list-entry-value th,
+table.gf-advanced-list-entry-value td {
+    padding: 6px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table.gf-advanced-list-entry-value th {
+    background-color: #f8f8f8;
+    font-weight: 600;
+}
